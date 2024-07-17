@@ -1,0 +1,14 @@
+# .streamlit/config.toml
+
+[server]
+headless = true
+port = 8501
+enableCORS = false
+
+[runner]
+magicEnabled = false
+runOnSave = false
+
+# Custom environment variables
+[environment]
+PYTHONPATH = "C:\Users\sinsu\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages:$PYTHONPATH"
